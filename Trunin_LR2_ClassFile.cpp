@@ -4,7 +4,7 @@
 #include "Trunin_LR2_ClassFile.h"
 // Вектор (БД) файлов
 vector<File> DB_File;
-
+cout << "DB is empty" << endl;
 // Функция для создания вектора из файла
 function<void()> createFilesFromFile(string filename) {
   return [filename]() {
